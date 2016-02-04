@@ -63,7 +63,7 @@ const DateRangePicker = React.createClass({
       bemNamespace: null,
       bemBlock: 'DateRangePicker',
       numberOfCalendars: 1,
-      firstOfWeek: 0,
+      firstOfWeek: moment.localeData().firstDayOfWeek(),
       disableNavigation: false,
       nextLabel: '',
       previousLabel: '',

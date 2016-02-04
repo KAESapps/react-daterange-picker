@@ -103,7 +103,7 @@ var DateRangePicker = _react2['default'].createClass({
       bemNamespace: null,
       bemBlock: 'DateRangePicker',
       numberOfCalendars: 1,
-      firstOfWeek: 0,
+      firstOfWeek: _moment2['default'].localeData().firstDayOfWeek(),
       disableNavigation: false,
       nextLabel: '',
       previousLabel: '',
